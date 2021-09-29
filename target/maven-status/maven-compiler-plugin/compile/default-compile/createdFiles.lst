@@ -1,0 +1,9 @@
+com\feanaro\lindale_api\DatabaseSupport$LazyHolder.class
+com\feanaro\lindale_api\utils\PasswordUtils.class
+com\feanaro\lindale_api\SecurityConfig.class
+com\feanaro\lindale_api\DatabaseSupport.class
+com\feanaro\lindale_api\models\MethodHttp.class
+com\feanaro\lindale_api\LindaleApiApplication.class
+com\feanaro\lindale_api\utils\JsonDoc.class
+com\feanaro\lindale_api\models\VerbHttp.class
+com\feanaro\lindale_api\models\RoleAuth.class

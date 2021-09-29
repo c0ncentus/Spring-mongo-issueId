@@ -1,0 +1,56 @@
+# Created at 2021-09-25T20:55:03.504
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+
+# Created at 2021-09-25T20:55:05.419
+Unexpected IOException with stream: 2021-09-25 20:55:05.413  WARN 11676 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+
+
+# Created at 2021-09-25T20:55:05.529
+Unexpected IOException with stream: 2021-09-25 20:55:05.528  INFO 11676 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+
+
+# Created at 2021-09-25T20:55:05.546
+Unexpected IOException with stream: 2021-09-25 20:55:05.545  INFO 11676 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:143) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144) ~[mongodb-driver-core-4.2.3.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:669) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:645) ~[na:na]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:107) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.2.3.jar:na]
+	... 4 common frames omitted
+
+
+
+# Created at 2021-09-25T20:55:05.986
+Unexpected IOException with stream: 2021-09-25 20:55:05.985  INFO 11676 --- [           main] c.f.l.LindaleApiApplicationTests         : Started LindaleApiApplicationTests in 6.208 seconds (JVM running for 7.93)
+
+
+# Created at 2021-09-25T20:55:06.011
+Unexpected IOException: 5,1,com.feanaro.lindale_api.LindaleApiApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2021-09-25T20:55:06.722
+Unexpected IOException: 6,1,com.feanaro.lindale_api.LindaleApiApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2021-09-25T20:55:06.730
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.feanaro.lindale_api.LindaleApiApplicationTests,null,null,null
+
+
