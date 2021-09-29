@@ -1,5 +1,5 @@
 # Get Started
-0. For this minimal exempleyou expect to have "Feanaro" database and have "User" Collection in it
+0. For this minimal exempleyou expect to have "Feanaro" database and have "User" Collection on it
 1. mvn package
 2. running local mongod on your machine or configure your mongod server
 3. start your application
